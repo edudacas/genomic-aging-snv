@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "build": "GRCh38",
+  "coordinates": "0-based-half-open",
+  "version": "pilot17-GRCh38-v1-explicit-borders",
+  "source": "17_SEX_CHROMOSOME_MOSAIC_v1/prototype_sex_chromosome_mosaic.py; 1-based inclusive intervals converted to BED",
+  "xtr_status": "PROVISIONAL_APPROXIMATE_PILOT_MASK_REQUIRES_GATE_REVIEW",
+  "note": "No territory is removed. Interval-level coordinates and all compartments are retained. This mask is not a calibrated sex or mosaic-event classifier.",
+  "masks": [
+    {"chrom": "chrX", "start": 10000, "end": 2781479, "compartment": "X_PAR"},
+    {"chrom": "chrX", "start": 155701382, "end": 156030895, "compartment": "X_PAR"},
+    {"chrom": "chrY", "start": 10000, "end": 2781479, "compartment": "Y_PAR"},
+    {"chrom": "chrY", "start": 56887902, "end": 57217415, "compartment": "Y_PAR"},
+    {"chrom": "chrY", "start": 2917958, "end": 6616600, "compartment": "Y_XTR"}
+  ]
+}

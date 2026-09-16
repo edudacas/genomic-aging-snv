@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests": 101,
+  "source_version": "3.5.2",
+  "repository_derivative": "review-source-1",
+  "command": "python -m unittest discover -s tests -q",
+  "scope": "Synthetic and regression tests on sanitized repository source",
+  "production_docker_build_tested_here": false,
+  "cohort_completion_verified_here": false
+}
