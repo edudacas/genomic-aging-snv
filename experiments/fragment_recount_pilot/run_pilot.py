@@ -63,7 +63,7 @@ def main():
             c,pos,_,ref,alt=line.split('\t')[:5];sites.append(dict(chrom=c,pos=int(pos),ref=ref,alt=alt,variant_id=f'{c}:{pos}:{ref}:{alt}'))
     if not sites or len(sites)!=prep['candidate_snv_alleles'] or len({s['variant_id'] for s in sites})!=len(sites):raise ValueError('Empty or mismatched candidate count')
     import pysam,unittest
-    suite=unittest.defaultTestLoader.discover(str(Path(__file__).parent),pattern='test_fragment_recount*.py')
+    suite=unittest.defaultTestLoader.discover(str(Path(__file__).parent),pattern='test_*.py')
     import io
     testlog=io.StringIO();tests=unittest.TextTestRunner(stream=testlog,verbosity=2).run(suite)
     if not tests.wasSuccessful() or tests.skipped:raise ValueError('All synthetic/native tests must pass without skips')
