@@ -1,0 +1,25 @@
+{
+  "status": "SYNTHETIC_NATIVE_TESTS_PASS_REAL_PILOT_PENDING",
+  "tests": 28,
+  "native_bam_tests": 4,
+  "skips": 0,
+  "pysam_version": "0.23.3",
+  "python_version": "3.12.3",
+  "real_production_bams_validated": false,
+  "cohort_execution_authorized": false,
+  "somatic_origin_classified": false,
+  "protocol_scientifically_frozen": false,
+  "source_hash_encoding": "UTF-8, LF newlines, exactly one trailing newline",
+  "source_sha256": {
+    "fragment_recount.py": "99e4266c4573d9c41f0cd1b90df911e3a01aaa76e628f4ac12e37f98572298b5",
+    "legacy_recount_snapshot.py": "2bc93e351cd5b904b8c71cf42ede185274f5c585ea5a028f5571ac180530fe5c",
+    "run_pilot.py": "3ab9cd682ae63b746da2237c6ba5c3c3b1c659594944a201d5c8e64b1a69c3d2",
+    "prepare_pilot.py": "31e56ac50cb236f7929efe5f7bcd6f6ff5cf5f56df112ec346ca7c3f8fccfc2f",
+    "test_prepare_pilot.py": "ba1e6817223e5f6f1d3491bb4c3c0106fbef7fc5aa7927f88802210e0cc20ec3",
+    "test_fragment_recount.py": "874e6b15d122cf1d237f5798c5ed594ef8155068aae9eefbfacdf19fab02b386",
+    "test_fragment_recount_native.py": "b71e79470e0ab56c467e7c8baee070b23d14d528d8763d953dae0fbccebc440a",
+    "test_pilot_runner.py": "33db66211bd9245088a0b366da6cfc296748fac9d5b7334c88c895be2592f340",
+    "README.md": "66ac74b8bb462d6a6ec2ea0ca1ec284e4f1dd3e033986f29c29129123481cf7c",
+    "ci_test_wrapper.py": "610f776197014a422fba6cd652249873b2bded50180d2531327c60c64fc65371"
+  }
+}
